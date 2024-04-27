@@ -1,0 +1,39 @@
+.navbar {
+  background-color: var(--white);
+  height: 50px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 15px;
+}
+.title_bar {
+  font-size: 25px;
+  text-transform: capitalize;
+  margin-left: 10px;
+  color: var(--navyMain);
+}
+.menuIcon {
+  font-size: 30px;
+  cursor: pointer;
+  font-weight: 600;
+}
+.menuIcon:hover {
+  color: var(--navyMain);
+}
+.bar {
+  .ant-drawer-body {
+    flex-grow: 1;
+    padding: 24px 0;
+    overflow: auto;
+    font-size: 14px;
+    line-height: 1.5715;
+    word-wrap: break-word;
+    background-color: red;
+  }
+}
+.left {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}

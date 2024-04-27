@@ -1,0 +1,43 @@
+.barList {
+  user-select: none;
+}
+.lists {
+  list-style: none;
+}
+.list {
+  height: 50px;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 0px 15px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  justify-content: space-between;
+}
+
+.list:not(:first-child) {
+  box-shadow: rgba(17, 17, 26, 0.1) 0px -1px 0px;
+}
+
+.list > p::first-letter {
+  text-transform: uppercase;
+}
+.list:hover {
+  background-color: #f0f1f6;
+}
+.listsChild {
+  padding: 10px;
+}
+.listChild {
+  height: 40px;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 0px 15px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  justify-content: space-between;
+}
+.listChild:hover {
+  background-color: #f0f1f6;
+}
