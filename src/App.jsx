@@ -5,12 +5,18 @@ import Lists from './components/Lists';
 import Footer from './components/Footer';
 function App() {
   return (
-    <div className='App'>
+    <div className='app'>
       <nav className='nav'>
         <Navbar />
       </nav>
-      <Outlet className='body' />
-      <Footer />
+      <div className='body'>
+        <div className='main-body '>
+          <Outlet className='body' />
+        </div>
+        <footer className='footerBox'>
+          <Footer />
+        </footer>
+      </div>
     </div>
   );
 }

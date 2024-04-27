@@ -1,3 +1,22 @@
+.app {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.nav {
+  position: sticky;
+  z-index: 50;
+  top: 0;
+}
+.body {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+.main-body {
+  flex-grow: 1;
+}
 .notFound {
   display: flex;
   justify-content: center;

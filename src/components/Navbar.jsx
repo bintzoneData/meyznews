@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { LuMenu } from 'react-icons/lu';
 import { Button, Drawer } from 'antd';
 import BarLists from './BarLists';
-import { Navigate, useNavigate } from 'react-router-dom';
+import { Link, Navigate, useNavigate } from 'react-router-dom';
 import Lists from './Lists';
 const Navbar = () => {
   const navigate = useNavigate();
@@ -22,7 +22,9 @@ const Navbar = () => {
     <div className={style.navbar}>
       <div className={style.left}>
         <LuMenu onClick={showDrawer} className={style.menuIcon} />
-        <h1 className={style.title_bar}>meyz news</h1>
+        <Link to={'/'}>
+          <h1 className={style.title_bar}> meyz news</h1>
+        </Link>
         <Drawer
           title={<h1 className={style.title_bar}>meyz news</h1>}
           onClose={onClose}

@@ -18,7 +18,7 @@ const View = () => {
           <h1 className={style.title}>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam eos
           </h1>
-          <Image preview={false} className={style.image} src={hassan} />
+          <Image className={style.image} src={hassan} />
           <p className={style.content}>{addNewLinesAndSpaces(data?.content)}</p>
           <p className={style.content}>{addNewLinesAndSpaces(data?.content)}</p>
           <p className={style.content}>{addNewLinesAndSpaces(data?.content)}</p>

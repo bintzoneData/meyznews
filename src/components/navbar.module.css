@@ -12,6 +12,7 @@
   text-transform: capitalize;
   margin-left: 10px;
   color: var(--navyMain);
+  cursor: pointer;
 }
 .menuIcon {
   font-size: 30px;
